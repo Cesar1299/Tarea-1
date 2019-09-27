@@ -1,6 +1,8 @@
-# Tarea-1
--Configurar el servidor de php (Wamp server)  
--Configurar el entorno de desarrollo de php   
--Crear website indicando su nombre,  experiencia en el area y sus hobbies(El html se debe de generar desde php, para el nombre use la etiqueta de h1 y para los texto la etiqueta p)  
--Crear repositorio en git y subirlo a gitHub  
-(Nota debe subir el compilado del web site y colocar en la descripcion el link del repositorio en github)
+Tabla periódica
+Esta tarea vale 4 puntos que se reparten de la sgte manera:
+
+* Los dos primeros punto se obtienen imprimiendo en html utilizando php (arrays, estructura de control tipo loops como for o foreach) la tabla periódica con la estructura correcta como se presenta en la imagen adjunta, solo debe colocarse el símbolo del elemento, los elementos deben de estar guardado en un array.
+
+* El tercer punto agrupando los elementos por colores, ejemplos los elementos alcalinos deben tener un color y los metaloides otro, se debe colocar una leyenda sobre cual color le pertenece a cual grupo como esta al final de la imagen adjunta,para esto pueden usar estructura de control como el if.
+
+* El ultimo y cuarto punto se obtiene si usted valida que al borrar un elemento o varios elementos del array la estructura de la tabla se mantiene y donde debe estar el o los elementos eliminado se imprime un cuadro vació con un color gris de fondo
