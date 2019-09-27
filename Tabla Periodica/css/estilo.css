@@ -1,0 +1,236 @@
+body{
+
+  align-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+
+}
+
+.filas{
+ border-style: solid;
+ width: 50px;
+ height: 50px;
+ display: inline-block;
+ border-color: white;
+ margin-top: 2px;
+ text-align: center;
+ line-height: 60px;
+ color: transparent;
+ background-color: transparent;
+ border-color: transparent;
+}
+.Alcalinos{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#33D4FF;
+  border-color:#33D4FF;
+}
+.Alcalinoterreos{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#D733FF ;
+  border-color: #D733FF;
+}
+.MetalesTransicion{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#FFC433 ;
+  border-color: #FFC433;
+}
+.Lantanidos{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #644848 ;
+  border-color: #644848;
+}
+.Actinidos{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  font-family: fantasy;
+  background-color: #D37E99;
+  border-color: #D37E99;
+}
+.OtrosMetales{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #E85031;
+  border-color: #E85031;
+}
+.Metaloides{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #C1F800;
+  border-color: #C1F800;
+}
+.OtrosNoMetales{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #FBE4D8;
+  border-color: #FBE4D8;;
+}
+.Halogenos{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color: #00E7B8 ;
+  border-color: #00E7B8;
+}
+.GasesNobles{
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-color: white;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#009AE7;
+  border-color: #009AE7;
+}
+
+.filasblock{
+  border-style: solid;
+  width: 60px;
+  height: 60px;
+ display: inline-block;
+ border-color: white;
+ margin-top: 2px;
+ text-align: center;
+ line-height: 60px;
+ background-color: gray;
+ border-color: gray;
+}
+
+.leyenda{
+   display: inline-block;
+   
+}
+
+.metales{
+  border-style: solid;
+  border-color: lightgray;
+  height: 45px;
+  width: 747px;
+  text-align: center;
+  line-height: 45px;
+  background-color: gray;
+  margin:-3px;
+  font: icon;
+  font-size: larger;
+  line-height: 45px;
+}
+.metalesA{
+  border-style: solid;
+  display: inline-block;
+  width: 143px;
+  margin:-4px;
+  font: icon;
+  font-size: larger;
+  text-align: center;
+  border-color:white;
+}
+.metalesB{
+  border-style: solid;
+  display: inline-block;
+  width: 151px;
+  font: icon;
+  font-size: larger;
+  text-align: center;
+  margin: -3px;
+  border-color: lightgray;
+}
+
+.noMetales{
+  border-style: solid;
+  border-color:lightgray;
+  height: 45px;
+  width: 385px;
+  text-align: center;
+  line-height: 45px;
+  background-color: gray;
+  margin:-3px;
+  font: icon;
+  font-size: larger;
+  line-height: 45px;
+}
+
+.noMetalesA{
+  border-style: solid;
+  display: inline-block;
+  width: 124px;
+  margin:-3px;
+  font: icon;
+  font-size: larger;
+  text-align: center;
+  border-color: lightgray;
+}
+.metaloides{
+  border-style: solid;
+  text-align: center;
+  margin-top: 30px;
+  width: 120px; 
+  font: icon;
+  font-size: larger;
+  text-align: center;
+  border-color: #C1F800;
+  
+}
+.metaloides1{
+  margin-top: 13px;
+  color:#C1F800;
+  border-color: #C1F800;
+  width: 120px; 
+}
