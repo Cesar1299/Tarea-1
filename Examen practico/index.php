@@ -40,8 +40,8 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
  <br>
  <br>
  <p class="IzquierdaTitulo"> QUIEN SOY</p>
- <?php foreach($Personalidad as $descripcion):?>
- <p ><?php echo $descripcion?></p>
+ <?php foreach($Personalidad as $info):?>
+ <p ><?php echo $info?></p>
   <?php endforeach?>
   </div>
   <br>
