@@ -17,7 +17,6 @@ $experiencias =['Gerente departamento TI', 'Soporte tecnico', 'Auxiliar Contable
 $estudios = ['Bachillerato (Tecnico en contabilidad computarizada)', 'Tecnologo en Software (ITLA)'];
 
 $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de grupo'];
-
 ?>
 
 <!DOCTYPE html>
@@ -53,7 +52,6 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
  <?php foreach($Conocimientos as $programas):?>
  <p > <?php echo $programas?></p>
   <?php endforeach?>
-  </div>
   <br>
   <?php endif?>
 
@@ -63,43 +61,35 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
        <?php foreach($idiomas as $idioma):?>
           <p><?php echo $idioma?></p>
         <?php endforeach?>
-        </div>
         <br>
         <?php endif?>
  
        <?php if(empty($referencias)):?>
        <?php else:?>
-       <div>
        <p class="IzquierdaTitulo">REFERENCIAS</p>
        <?php foreach($referencias as $cuña):?>
           <?php foreach ($cuña as $referencias  ): ?> 
-          <div >
          <p> <span ><?php echo "referencias:"?>
-          </div>
           <?php endforeach?>
           <br>    
         <?php endif?>
     </section>
 
       <section class="parte_Derecha">
-      <div class="nombre" >Cesar Gonzalez </div>
+      <div class="Nombre" >Cesar Gonzalez </div>
       <?php if(empty($experiencias)):?>
        <?php else:?>
-       <div>
        <p class="DerechaTitulo">EXPERIENCIA PROFESIONAL</p>
        <?php foreach($experiencias as $experiencia):?>
           <p><?php echo $experiencia?></p>
         <?php endforeach?>
-        </div>
         <?php endif?> 
 
        <?php if(empty($estudios)):?>
           <?php else:?>
-          <p class="DerechaTitulo">ESTUDIOS ACADEMICOS</p>
+          <p class="DrechaTitulo">ESTUDIOS ACADEMICOS</p>
           <?php foreach($estudios as $estudio):?>
           <p><?php echo $estudio?></p>
-            <?php endforeach?>
-            </div>
             <?php endif?> 
 
         <?php if(empty($skills)):?>
@@ -108,10 +98,8 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
        <?php foreach($skills as $HABILIDADES):?>
           <p ><?php echo $HABILIDADES?></p>         
         <?php endforeach?>
-        </div>
         <?php endif?>
       </section>
-</article>
-    
+</article>  
 </body>
 </html>
