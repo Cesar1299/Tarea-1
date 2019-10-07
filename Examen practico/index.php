@@ -74,10 +74,10 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
        <?php else:?>
        <div>
        <p class="IzquierdaTitulo">REFERENCIAS</p>
-       <?php foreach($referencias as $referencia=>$cuña):?>
-          <?php foreach ($cuña as $llave=>$info): ?> 
+       <?php foreach($referencias as $cuña):?>
+          <?php foreach ($cuña as $referencias  ): ?> 
           <div >
-         <p> <span ><?php echo "$llave:"?></span> <?php echo $info?></p>
+         <p> <span ><?php echo "referencias:"?>
           </div>
           <?php endforeach?>
           <br>
