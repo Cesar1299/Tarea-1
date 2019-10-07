@@ -34,10 +34,7 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
  <?php if(empty($Personalidad)):?>
  <?php else:?>
  <div>
- <br>   
- <br>
- <br>
- <br>
+ <br> <br> <br> <br>
  <p class="IzquierdaTitulo"> QUIEN SOY</p>
  <?php foreach($Personalidad as $info):?>
  <p ><?php echo $info?></p>
