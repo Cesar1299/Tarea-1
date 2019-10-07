@@ -47,8 +47,6 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
   <br>
   <?php endif?> 
 
-
-
 <?php if(empty($Conocimientos)):?>
  <?php else:?>
  <p class="IzquierdaTitulo">PROGRAMAS</p>
@@ -58,7 +56,6 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
   </div>
   <br>
   <?php endif?>
-
 
      <?php if(empty($idiomas)):?>
        <?php else:?>
@@ -80,12 +77,9 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
          <p> <span ><?php echo "referencias:"?>
           </div>
           <?php endforeach?>
-          <br>
-        <?php endforeach?>
-        </div>
+          <br>    
         <?php endif?>
     </section>
-
 
       <section class="parte_Derecha">
       <div class="nombre" >Cesar Gonzalez </div>
