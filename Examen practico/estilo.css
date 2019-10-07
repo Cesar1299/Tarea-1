@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://www.modelocurriculum.net/wp-content/fondo-tarjeta-de-presentacion-negro.jpg) ;
+}
+
+
+article{
+   
+    text-align: center;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+p{
+    text-align: left;
+    padding-left: 20px;
+    margin:30px;
+    font-size: large;
+    
+}
+
+.nombre{
+    
+    color:rgba(255, 255, 255, 0.973);
+    font-family: 'Calibri';
+    font-size: large;
+    font-size: 400%;
+    text-align: center;
+    height: 95px;
+    background-color: rgb(238, 105, 101);
+}
+
+.parte_Izquierda{
+    background-color: rgb(82, 161, 172);
+    float: left;
+    width: 30%;
+    height:1000px;
+}
+
+.parte_Derecha{
+
+   height:1000px;
+   background-color: rgb(227, 231, 235);
+  
+}
+
+p.IzquierdaTitulo{
+    font-family: "Calibri Black";
+    color: rgb(250, 243, 233);
+    padding-right: 50px;
+    text-align: left;
+}
+
+
+.DerechaTitulo{
+    color: rgb(238, 105, 101);
+    font-family: "Calibri Black";
+    text-align: left;
+    padding-left: 450px;
+
+
+}
+
+
