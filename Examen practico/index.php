@@ -67,11 +67,12 @@ $skills = ['Capacidad para trabajar en equipo', 'Responsabilidad', 'Motivador de
        <?php if(empty($referencias)):?>
        <?php else:?>
        <p class="IzquierdaTitulo">REFERENCIAS</p>
-       <?php foreach($referencias as $cuña):?>
-          <?php foreach ($cuña as $referencias  ): ?> 
-         <p> <span ><?php echo "referencias:"?>
+      <?php foreach($referencias as $referencia=>$cuña):?>
+       <?php foreach($cuña as $representante):?>
+         <p><?php echo "$representante"?>}</p>
           <?php endforeach?>
-          <br>    
+          <br>   
+           <?php endforeach?>
         <?php endif?>
     </section>
 
