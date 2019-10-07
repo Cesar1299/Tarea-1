@@ -4,7 +4,7 @@
 $Personalidad=['Soy una Amable', 'Responsable en proyectos pautados', 'Creativo al momento de diseñar ', 
           'Pensamientos con vision y objetivos claros'];
 
-$Conocimientoss =['Microsoft SQLServer', 'Visual Studio', 'AnyDesk', 'Microsoft Project'];
+$Conocimientos =['Microsoft SQLServer', 'Visual Studio', 'AnyDesk', 'Microsoft Project'];
 
 $idiomas=['Ingles', 'Español'];
 
